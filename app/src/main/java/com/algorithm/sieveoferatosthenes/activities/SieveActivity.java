@@ -115,7 +115,7 @@ public class SieveActivity extends AppCompatActivity {
         } catch (NumberFormatException ex) {
 
             sb.setLength(0);
-            sb.append("Invalid entry, only a single entry and a whole number larger than 1 is accepted");
+            sb.append("Invalid entry, must be a whole number larger than 1");
             tv.setText(sb.toString());
             tv.setVisibility(View.VISIBLE);
             list.clear();
